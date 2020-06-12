@@ -9,6 +9,6 @@ Perfil do Invocador
 
 **GULP, GRUNT?** Não utilizo.  
 
-**Bower morreu?** Acredito que sim, o que preciso utilizo o NPM.  
+**Bower morreu?** Acredito que sim. Tudo que preciso utilizo do NPM.  
 
-**Como nos conheceu:**   Através da Joseli.
+**Como nos conheceu:**   Uma amiga enviou meu perfil do Linkedin. Foi como conheci a Joseli, e através dela conheci a empresa.
