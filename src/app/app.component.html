@@ -1,0 +1,42 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <i class="material-icons md-36">emoji_events</i>
+  <span>Torneio Valoran</span>
+</div>
+
+<div class="content" role="main">
+  <div class="card highlight-card card-small">
+    <div class="svg">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor" d="M18,3A2,2 0 0,1 20,5C20,5.81 19.5,6.5 18.83,6.82L17,13.15V18H7V13.15L5.17,6.82C4.5,6.5 4,5.81 4,5A2,2 0 0,1 6,3A2,2 0 0,1 8,5C8,5.5 7.82,5.95 7.5,6.3L10.3,9.35L10.83,5.62C10.33,5.26 10,4.67 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.67 13.67,5.26 13.17,5.62L13.7,9.35L16.47,6.29C16.18,5.94 16,5.5 16,5A2,2 0 0,1 18,3M5,20H19V22H5V20Z" />
+      </svg>
+    </div>
+    <span>{{ title }}</span>
+  </div>
+
+  <h2>Veja algumas informações</h2>
+  <p>O torneio acontecerá com o intuito de eliminar os conflitos que assombram nossa querida Valoran.</p>
+  <p>Antes de cadastrar os times para a competição há algumas coisas que precisa saber:</p>
+  <div class="items">
+    <p>- Após o cadastramento, os times serão separados em grupos com dois times cada.</p>
+    <p>- Cada dupla disputará entre si.</p>
+    <p>- O time vencedor de cada dupla, passará para a próxima fase.</p>
+    <p>- Na fase final, o time vencedor concederá ao seu reino a oportunidade de governar todos os outros em Valoran.</p>
+  </div>
+  <h5>Para continuar com o cadastro dos times e descobrir quem será o vencedor clique no botão.</h5>
+
+  <div class="card-container">
+    <div class="card" target="_blank" rel="noopener" (click)="openDialog()">
+      <span>Cadastrar Times</span>
+      <svg svg style="width:24px;height:24px" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" />
+      </svg>
+    </div>
+  </div>
+
+  <svg id="clouds" alt="Gray Clouds Background" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
+    <path id="Path_39" data-name="Path 39" d="M2379.709,863.793c10-93-77-171-168-149-52-114-225-105-264,15-75,3-140,59-152,133-30,2.83-66.725,9.829-93.5,26.25-26.771-16.421-63.5-23.42-93.5-26.25-12-74-77-130-152-133-39-120-212-129-264-15-54.084-13.075-106.753,9.173-138.488,48.9-31.734-39.726-84.4-61.974-138.487-48.9-52-114-225-105-264,15a162.027,162.027,0,0,0-103.147,43.044c-30.633-45.365-87.1-72.091-145.206-58.044-52-114-225-105-264,15-75,3-140,59-152,133-53,5-127,23-130,83-2,42,35,72,70,86,49,20,106,18,157,5a165.625,165.625,0,0,0,120,0c47,94,178,113,251,33,61.112,8.015,113.854-5.72,150.492-29.764a165.62,165.62,0,0,0,110.861-3.236c47,94,178,113,251,33,31.385,4.116,60.563,2.495,86.487-3.311,25.924,5.806,55.1,7.427,86.488,3.311,73,80,204,61,251-33a165.625,165.625,0,0,0,120,0c51,13,108,15,157-5a147.188,147.188,0,0,0,33.5-18.694,147.217,147.217,0,0,0,33.5,18.694c49,20,106,18,157,5a165.625,165.625,0,0,0,120,0c47,94,178,113,251,33C2446.709,1093.793,2554.709,922.793,2379.709,863.793Z" transform="translate(142.69 -634.312)" fill="#eee"/>
+  </svg>
+</div>
+
+<router-outlet></router-outlet>

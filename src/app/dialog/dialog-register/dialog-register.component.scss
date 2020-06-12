@@ -1,0 +1,63 @@
+/* Responsive Styles */
+@media screen and (max-width: 575px) {
+    .card-container .card {
+        margin: auto;
+    }
+    div.container div.card-container div.card {
+        width: fit-content;
+    }
+    div.container .mat-form-field {
+        width: 150px;
+    }
+    form div.container {
+        display: block;
+    }
+}
+h1 {
+    margin-bottom: 10px;
+}
+div.card-container {
+    display: flex;
+}
+.card-container .card {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    padding: 8px;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    border-color: #e1bee7;
+    margin-left: 8px;
+}
+.card-container .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px #ab47bc;
+    background: #401048;
+}
+div.container {
+    display: flex;
+}
+div.container div.card-container div.card {
+    height: fit-content;
+    margin-left: 10px;
+}
+.mat-form-field {
+    width: 290px;
+}
+mat-card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    max-width: 50%;
+    display: flex;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin: 6px;
+}
+mat-card:hover {
+    background: #401048;
+    box-shadow: 0 4px 10px #ab47bc;
+}
+mat-card i {
+    margin-left: auto
+}
